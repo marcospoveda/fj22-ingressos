@@ -150,4 +150,11 @@
         </plugins>
     </build>
 
+     <developers>
+        <developer>
+            <name>Marcos Poveda</name>
+            <email>marcospoveda@live.com</email>
+        </developer>
+    </developers>
+
 </project>
