@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "ingresso",
+                "projectName": "ingresso",
+                "workingDirectory": "/home/lab8038/fj22-ingressos",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "ingresso",
+                "projectName": "ingresso",
+                "workingDirectory": "/home/lab8038/fj22-ingressos",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
