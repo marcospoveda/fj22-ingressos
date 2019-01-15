@@ -36,6 +36,7 @@ public class Sala {
 
     public Sala(String nome, BigDecimal preco) {
         this.nome = nome;
+        this.preco = preco;
     }
 
     public Integer getId() {
@@ -80,6 +81,9 @@ public class Sala {
     }
 
     public BigDecimal getPreco(){
+        if(preco == null){
+            return null;
+        }
         return preco.setScale(2, RoundingMode.HALF_UP);
     }
 

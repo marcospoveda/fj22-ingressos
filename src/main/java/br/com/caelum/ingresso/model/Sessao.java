@@ -36,7 +36,9 @@ public class Sessao{
         this.horario = horario;
         this.filme = filme;
 		this.sala = sala;
-		this.preco = sala.getPreco().add(filme.getPreco());
+		if(preco != null){
+			this.preco = sala.getPreco().add(filme.getPreco());
+		}
     }
 
     public LocalTime getHorarioTermino(){
@@ -76,6 +78,9 @@ public class Sessao{
 	}
 
 	public BigDecimal getPreco(){
+		if(preco == null){
+			return null;
+		}
 		return preco.setScale(2, RoundingMode.HALF_UP);
 	}
 

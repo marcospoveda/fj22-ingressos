@@ -25,7 +25,7 @@
          
               <div class="form-group"> 
                 <label for="preco">Preço:</label>
-                 <input id="preco" type="text" name="preco">
+                 <input id="preco" type="text" name="preco"
  						class="form-control" value="${sala.preco}" /> 
                  <c:forEach items="${bindingResult.getFieldErrors('preco')}" var="error"> 
  					<span class="text-danger">${error.defaultMessage}</span> 
