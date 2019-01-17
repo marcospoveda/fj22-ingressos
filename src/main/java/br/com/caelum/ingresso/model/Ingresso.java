@@ -73,6 +73,10 @@ public class Ingresso {
         this.tipoDeIngresso = tipoDeIngresso;
     }
 
+    public void setPreco(BigDecimal preco) {
+        this.preco = preco;
+    }
+
     
 
 }

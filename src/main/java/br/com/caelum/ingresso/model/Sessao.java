@@ -113,4 +113,9 @@ public class Sessao{
 						.noneMatch(lugar -> lugar.equals(lugarSelecionado));
 	}
 
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+
 }
