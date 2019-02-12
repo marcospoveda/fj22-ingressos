@@ -1,5 +1,1 @@
-Nome: Marcos Poveda
-Empresa: UOL
-Cargo: Desenvolvedor
-
-Projeto: Projeto de venda de ingressos online para cinema.
+Projeto de venda de ingressos online para cinema Back-End (Spring MVC e Testes Junit) Curso Caelum (FJ22)
